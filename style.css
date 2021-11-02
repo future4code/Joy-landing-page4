@@ -1,5 +1,65 @@
 * {
     padding: 0;
     margin: 0;
+    /* background-color: coral; */
+    font-family: 'Oswald', sans-serif;
 }
 
+body{
+    padding: 1% 2%;
+    
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+#logo{
+    width: 13vw;
+
+}
+
+.menu-cabecalho ul{
+display: flex;
+
+}
+
+.menu-cabecalho ul a{
+text-decoration: none;
+margin: 0 15px;
+font-size: 35px
+}
+
+.menu-cabecalho ul li{
+list-style: none;
+text-transform: uppercase;
+color: #000;
+}
+
+.servico img{
+    width:7%;
+}
+
+#sobre{
+    width: 96%;
+
+}
+
+.imagem-funcionarios img{
+    width: 50vw;
+}
+
+.linha img{
+    width: 7%;
+}
+
+.col2 img{
+    width: 2%;
+}
+
+.logofacebook{
+    width: 1% !important;
+}
