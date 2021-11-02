@@ -23,8 +23,13 @@
     <main>
         <div id="pagina-inicial"> <!--Colocar a background-image pelo css, com película cinza e opacidade-->
             <div class="texto-apresentacao">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea tenetur dolores ratione illo quaerat reiciendis reprehenderit, unde ducimus.</p>
-                <button class="botao-saiba-mais">Saiba mais</button>
+                <p>Empréstimo pessoal <b>online, rápido e sem burocracia.</b></p>
+                <button class="botao-android">
+                    <a href="googleplay.com"><img src="img/googlePlay.svg"><p>Google Play</p></a>
+                </button>
+                <button class="botao-apple">
+                    <a href="https://www.apple.com/br/app-store/"><img src="img/appStore.svg"><p>App Store</p></a>
+                </button>
             </div>
             <div class="formulario-emprestimo"> 
                 <h2>De quanto você precisa?</h2>
@@ -34,24 +39,50 @@
                     <input type="number" id="quantia-dinheiro" name="quantia-dinheiro" placeholder="Quantia de dinheiro (R$)"></br>
                     <label for="quantidade-meses">Quantos meses:</label></br>
                     <input type="number" id="quantidade-meses" name="quantidade-meses" placeholder="Quantidade de meses"></br>
-                    <label for="nome-completo">Nome completo:</label></br>
-                    <input type="text" id="nome-completo" name="nome-completo" placeholder="Digite seu nome"></br>
-                    <label for="email">Endereço de e-mail:</label></br>
-                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail"></br>
-                    <input type="submit" value="Faça sua simulação">
+                    <input type="submit" value="Simule agora!">
                 </form>
             </div>
         </div>
-        <div id="servicos"><!--Colocar a background-image pelo css, com película cinza e opacidade-->
-
+        <div id="servicos">
+            <h2>Serviços</h2>
+            <div class="servico">
+                <img src="img/loan.svg">
+                <p>Empréstimo pessoal rápido sem análise de crédito!</p>
+            </div>
+            <div class="servico">
+                <img src="img/pessoa-para-pessoa.svg">
+                <p>Sistema de controle e orientação financeira!</p>
+            </div>
+            <div class="servico">
+                <img src="img/feliz.svg">
+                <p>Livre-se dos papéis. Trabalhamos sem burocracia!</p>
+            </div>
         </div>
         <div id="sobre">
-
+            
+            <div class="imagem-funcionarios">
+                <img src="img/colleagues-working-together-in-modern-office-using-devices-and-gadgets-during-negotiations.jpg">
+            </div>
+            <div class="texto-sobre">
+                <h2>Sobre</h2>
+                <p>Somos uma empresa que fornece crédito para moradores da periferia começarem seu próprio negócio. A empresa oferece dois serviços: (i) crédito pessoal ; (ii) sistema de controle e orientação financeira.</p>
+            </div>
         </div>
         <div id="contato">
-
+            <h2>Contato</h2>
+            <form>
+                <label for="nome-contato">Qual seu nome?</label></br>
+                <input type="text" name="nome-contato" id="nome-contato" placeholder="Digite seu nome"></br>
+                <label for="email-contato">Qual seu e-mail?</label></br>
+                <input type="email" name="email-contato" id="email-contato" placeholder="Digite seu email"></br>
+                <label for="">Qual sua mensagem?</label></br>
+                <textarea>Digite sua mensagem</textarea>
+                <input type="submit" value="Enviar" class="botao-enviar">
+            </form>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
 </body>
 </html>
