@@ -25,7 +25,7 @@
             </nav>
         </header>
         <main>
-            <div id="pagina-inicial"> <!--Colocar a background-image pelo css, com película cinza e opacidade-->
+            <div id="pagina-inicial">
                 <div class="texto-apresentacao">
                     <p>Empréstimo pessoal <br><b>online, rápido e sem <br>burocracia.</b></p>
                     <div class="botoes">
@@ -44,26 +44,31 @@
                     <h3>Faça uma simulação</h3>
                     <form>
                         <label for="quantia-dinheiro">Quantia de dinheiro:</label></br>
-                        <input type="number" id="quantia-dinheiro" name="quantia-dinheiro" placeholder="Quantia de dinheiro (R$)"></br>
+                        <input type="number" id="quantia-dinheiro" name="quantia-dinheiro" placeholder="Qual o valor? (R$)"></br>
                         <label for="quantidade-meses">Quantos meses:</label></br>
-                        <input type="number" id="quantidade-meses" name="quantidade-meses" placeholder="Quantidade de meses"></br>
-                        <input type="submit" value="Simule agora!">
+                        <input type="number" id="quantidade-meses" name="quantidade-meses" placeholder="Em quanto tempo?"></br>
+                        <input id="botao-simule" type="submit" value="Simule agora!">
                     </form>
                 </div>
             </div>
             <div id="servicos">
                 <h2>Serviços</h2>
-                <div class="servico">
-                    <img src="img/loan.svg">
-                    <p>Empréstimo pessoal rápido sem análise de crédito!</p>
-                </div>
-                <div class="servico">
-                    <img src="img/pessoa-para-pessoa.svg">
-                    <p>Sistema de controle e orientação financeira!</p>
-                </div>
-                <div class="servico">
-                    <img src="img/feliz.svg">
-                    <p>Livre-se dos papéis. Trabalhamos sem burocracia!</p>
+                <div class="wrap-servicos">
+                    <div class="servico">
+                        <img src="img/loan.svg">
+                        <h4>Crédito pessoal</h4>
+                        <p>Empréstimo pessoal rápido sem análise de crédito!</p>
+                    </div>
+                    <div class="servico">
+                        <img src="img/pessoa-para-pessoa.svg">
+                        <h4>Orientações</h4>
+                        <p>Sistema de controle e orientação financeira!</p>
+                    </div>
+                    <div class="servico">
+                        <img src="img/feliz.svg">
+                        <h4>Sem burocracia</h4>
+                        <p>Livre-se dos papéis. Trabalhamos sem burocracia!</p>
+                    </div>
                 </div>
             </div>
             <div id="sobre">
