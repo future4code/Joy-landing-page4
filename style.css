@@ -1,65 +1,111 @@
 * {
-    padding: 0;
-    margin: 0;
-    /* background-color: coral; */
-    font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 0;
+  /* background-color: coral; */
+  font-family: "Oswald", sans-serif;
 }
 
-body{
+body {
+}
+
+header {
     padding: 1% 2%;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header{
-display: flex;
-justify-content: space-between;
-align-items: center;
-
-}
-
-#logo{
+#logo {
     width: 13vw;
-
 }
 
-.menu-cabecalho ul{
-display: flex;
-
+.menu-cabecalho ul {
+    display: flex;
 }
 
-.menu-cabecalho ul a{
-text-decoration: none;
-margin: 0 15px;
-font-size: 35px
+.menu-cabecalho ul a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 35px;
 }
 
-.menu-cabecalho ul li{
-list-style: none;
-text-transform: uppercase;
-color: #000;
+.menu-cabecalho ul li {
+    list-style: none;
+    text-transform: uppercase;
+    color: #000;
 }
 
-.servico img{
-    width:7%;
-}
-
-#sobre{
-    width: 96%;
+main{
+    padding: 1% 2%;
+    margin-top: 40px;
 
 }
-
-.imagem-funcionarios img{
-    width: 50vw;
+.parte1{
+    background-image: url(img/towfiqu-barbhuiya-WYa-B2JAFPk-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.linha img{
-    width: 7%;
+.parte1 main #pagina-inicial{
+    display: flex;
 }
 
-.col2 img{
-    width: 2%;
+.parte1 main #pagina-inicial .texto-apresentacao{
+    display: flex;
+    flex-direction: column;
 }
 
-.logofacebook{
-    width: 1% !important;
+.parte1 main #pagina-inicial .texto-apresentacao button{
+    display: flex;
+    cursor: pointer;
+    width: 10%;
+    padding: 10px;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao > p{
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao button a{
+    width: 20%;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao button img{
+    width: 100% !important;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao .botao-android{
+    margin-right: 20px;
+}
+.parte1 main #pagina-inicial .texto-apresentacao .botoes{
+    display: flex;
+}
+
+.servico img {
+  width: 7%;
+}
+
+#sobre {
+  width: 96%;
+}
+
+.imagem-funcionarios img {
+  width: 50vw;
+}
+
+.linha img {
+  width: 7%;
+}
+
+.col2 img {
+  width: 2%;
+}
+
+.logofacebook {
+  width: 1% !important;
 }

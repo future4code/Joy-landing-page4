@@ -12,79 +12,85 @@
     <title>upfour. - crédito para quem precisa</title>
 </head>
 <body>
-    <header>
-        <a href="#pagina-inicial"><img id="logo" src="img/upfour_logo.png"></a>
-        <nav class="menu-cabecalho">
-            <ul>
-            <a href="#pagina-inicial"><li>Home</li></a>
-            <a href="#servicos"><li>Serviços</li></a>
-            <a href="sobre"><li>Sobre</li></a>
-            <a href="contato"><li>Contato</li></a>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div id="pagina-inicial"> <!--Colocar a background-image pelo css, com película cinza e opacidade-->
-            <div class="texto-apresentacao">
-                <p>Empréstimo pessoal <b>online, rápido e sem burocracia.</b></p>
-                <button class="botao-android">
-                    <a href="googleplay.com"><img src="img/googlePlay.svg"><p>Google Play</p></a>
-                </button>
-                <button class="botao-apple">
-                    <a href="https://www.apple.com/br/app-store/"><img src="img/appStore.svg"><p>App Store</p></a>
-                </button>
+    <div class="parte1">
+        <header>
+            <a href="#pagina-inicial"><img id="logo" src="img/upfour_logo.png"></a>
+            <nav class="menu-cabecalho">
+                <ul>
+                <a href="#pagina-inicial"><li>Home</li></a>
+                <a href="#servicos"><li>Serviços</li></a>
+                <a href="sobre"><li>Sobre</li></a>
+                <a href="contato"><li>Contato</li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="pagina-inicial"> <!--Colocar a background-image pelo css, com película cinza e opacidade-->
+                <div class="texto-apresentacao">
+                    <p>Empréstimo pessoal <br><b>online, rápido e sem <br>burocracia.</b></p>
+                    <div class="botoes">
+                        <button class="botao-android">
+                            <a href="googleplay.com"><img src="img/googlePlay.svg"></a>
+                            <p>Google Play</p>
+                        </button>
+                        <button class="botao-apple">
+                            <a href="https://www.apple.com/br/app-store/"><img src="img/appStore.svg"></a>
+                            <p>App Store</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="formulario-emprestimo"> 
+                    <h2>De quanto você precisa?</h2>
+                    <h3>Faça uma simulação</h3>
+                    <form>
+                        <label for="quantia-dinheiro">Quantia de dinheiro:</label></br>
+                        <input type="number" id="quantia-dinheiro" name="quantia-dinheiro" placeholder="Quantia de dinheiro (R$)"></br>
+                        <label for="quantidade-meses">Quantos meses:</label></br>
+                        <input type="number" id="quantidade-meses" name="quantidade-meses" placeholder="Quantidade de meses"></br>
+                        <input type="submit" value="Simule agora!">
+                    </form>
+                </div>
             </div>
-            <div class="formulario-emprestimo"> 
-                <h2>De quanto você precisa?</h2>
-                <h3>Faça uma simulação</h3>
+            <div id="servicos">
+                <h2>Serviços</h2>
+                <div class="servico">
+                    <img src="img/loan.svg">
+                    <p>Empréstimo pessoal rápido sem análise de crédito!</p>
+                </div>
+                <div class="servico">
+                    <img src="img/pessoa-para-pessoa.svg">
+                    <p>Sistema de controle e orientação financeira!</p>
+                </div>
+                <div class="servico">
+                    <img src="img/feliz.svg">
+                    <p>Livre-se dos papéis. Trabalhamos sem burocracia!</p>
+                </div>
+            </div>
+            <div id="sobre">
+                
+                <div class="imagem-funcionarios">
+                    <img src="img/colleagues-working-together-in-modern-office-using-devices-and-gadgets-during-negotiations.jpg">
+                </div>
+                <div class="texto-sobre">
+                    <h2>Sobre</h2>
+                    <p>Oferecemos serviços exclusivos de crédito para você, jovem da periferia, alcançar o seu sonho e começar seu próprio negócio.</p>
+                    <button>CONHEÇA A UPFOUR E SEJA PROTAGONISTA DO SEU SUCESSO</button>
+                </div>
+            </div>
+            <div id="contato">
+                <h2>Contato</h2>
                 <form>
-                    <label for="quantia-dinheiro">Quantia de dinheiro:</label></br>
-                    <input type="number" id="quantia-dinheiro" name="quantia-dinheiro" placeholder="Quantia de dinheiro (R$)"></br>
-                    <label for="quantidade-meses">Quantos meses:</label></br>
-                    <input type="number" id="quantidade-meses" name="quantidade-meses" placeholder="Quantidade de meses"></br>
-                    <input type="submit" value="Simule agora!">
+                    <label for="nome-contato">Qual seu nome?</label></br>
+                    <input type="text" name="nome-contato" id="nome-contato" placeholder="Digite seu nome"></br>
+                    <label for="email-contato">Qual seu e-mail?</label></br>
+                    <input type="email" name="email-contato" id="email-contato" placeholder="Digite seu email"></br>
+                    <label for="">Qual sua mensagem?</label></br>
+                    <textarea>Digite sua mensagem</textarea>
+                    <input type="submit" value="Enviar" class="botao-enviar">
                 </form>
             </div>
-        </div>
-        <div id="servicos">
-            <h2>Serviços</h2>
-            <div class="servico">
-                <img src="img/loan.svg">
-                <p>Empréstimo pessoal rápido sem análise de crédito!</p>
-            </div>
-            <div class="servico">
-                <img src="img/pessoa-para-pessoa.svg">
-                <p>Sistema de controle e orientação financeira!</p>
-            </div>
-            <div class="servico">
-                <img src="img/feliz.svg">
-                <p>Livre-se dos papéis. Trabalhamos sem burocracia!</p>
-            </div>
-        </div>
-        <div id="sobre">
-            
-            <div class="imagem-funcionarios">
-                <img src="img/colleagues-working-together-in-modern-office-using-devices-and-gadgets-during-negotiations.jpg">
-            </div>
-            <div class="texto-sobre">
-                <h2>Sobre</h2>
-                <p>Oferecemos serviços exclusivos de crédito para você, jovem da periferia, alcançar o seu sonho e começar seu próprio negócio.</p>
-                <button>CONHEÇA A UPFOUR E SEJA PROTAGONISTA DO SEU SUCESSO</button>
-            </div>
-        </div>
-        <div id="contato">
-            <h2>Contato</h2>
-            <form>
-                <label for="nome-contato">Qual seu nome?</label></br>
-                <input type="text" name="nome-contato" id="nome-contato" placeholder="Digite seu nome"></br>
-                <label for="email-contato">Qual seu e-mail?</label></br>
-                <input type="email" name="email-contato" id="email-contato" placeholder="Digite seu email"></br>
-                <label for="">Qual sua mensagem?</label></br>
-                <textarea>Digite sua mensagem</textarea>
-                <input type="submit" value="Enviar" class="botao-enviar">
-            </form>
-        </div>
-    </main>
+        </main>
+    </div>
     <footer>
         <div id="localize-nos">            
             <h2>Localize-nos</h2>
