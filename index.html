@@ -10,14 +10,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobile.css">
     <title>upfour. - crédito para quem precisa</title>
 </head>
 
 <body>
     <div class="parte1">
         <header>
+           <div class="menuMobile">
             <a href="#pagina-inicial"><img id="logo" src="img/upfour_logo.png"></a>
-            <nav class="menu-cabecalho">
+            <div class="burger">
+                <div class="caixa">
+                    <div class="linha"></div>
+                </div>
+            </div>
+           </div>
+            <nav class="menu-cabecalho esconder" id="nav">
                 <ul>
                     <a href="#pagina-inicial">
                         <li>Home</li>
@@ -82,7 +90,6 @@
                 </div>
             </div>
             <div id="sobre">
-
                 <div class="imagem-funcionarios">
                     <img src="img/colleagues-working-together-in-modern-office-using-devices-and-gadgets-during-negotiations.jpg">
                 </div>
@@ -100,8 +107,8 @@
                     <label for="email-contato">Qual seu e-mail?</label></br>
                     <input type="email" name="email-contato" id="email-contato" placeholder="Digite seu email"></br>
                     <label for="">Qual sua mensagem?</label></br>
-                    <textarea>Digite sua mensagem</textarea>
-                    <input type="submit" value="Enviar" class="botao-enviar">
+                    <textarea placeholder="Digite sua mensagem"></textarea>
+                    <button class="botao-enviar">Enviar</button>
                 </form>
             </div>
         </main>
@@ -131,6 +138,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="main.js"></script>
+
 </body>
 
 </html>
