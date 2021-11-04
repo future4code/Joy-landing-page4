@@ -276,12 +276,12 @@ main {
     border-radius: 5px;
     border: none;
     box-shadow: 2px 2px 5px 1px #6f6f73;
-    padding-left: 20px;
     font-size: 1em;
+    padding-left: 10px;
 }
 
 #contato textarea {
-    width: 80%;
+    width: 79%;
     height: 190px;
     resize: none;
     margin-bottom: 20px;
@@ -292,12 +292,14 @@ main {
 }
 
 #contato .botao-enviar {
+    font-size: 1.5em;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     width: 20%;
     background-color: #6f6f73;
     color: #f2f2f2;
+    padding: 10px 0;
 }
 
 #contato .botao-enviar:hover {
