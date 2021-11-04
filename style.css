@@ -1,9 +1,7 @@
 * {
-  padding: 0;
-  margin: 0;
-  /* background-color: coral; */
-  font-family: "Oswald", sans-serif;
-
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
 }
 
 body {
@@ -22,13 +20,12 @@ header {
     text-decoration: none;
 }
 
-
 #logo:hover {
     text-decoration: none;
 }
 
 #logo:active {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .menu-cabecalho ul {
@@ -50,28 +47,27 @@ header {
 
 main {
     margin-top: 40px;
-
 }
-.parte1{
-    background-image: url(img/towfiqu-barbhuiya-WYa-B2JAFPk-unsplash.jpg);
+
+.parte1 {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0.3)), url(img/towfiqu-barbhuiya-WYa-B2JAFPk-unsplash\ \(1\).jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
 }
 
-.parte1 main #pagina-inicial{
+.parte1 main #pagina-inicial {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 1% 2%;
 }
 
-.parte1 main #pagina-inicial .texto-apresentacao{
+.parte1 main #pagina-inicial .texto-apresentacao {
     display: flex;
     flex-direction: column;
 }
 
-.parte1 main #pagina-inicial .texto-apresentacao button{
+.parte1 main #pagina-inicial .texto-apresentacao button {
     display: flex;
     cursor: pointer;
     width: 20%;
@@ -83,44 +79,42 @@ main {
     border: none;
     background-color: #6f6f73;
     color: #f2f2f2;
-   
 }
 
-.parte1 main #pagina-inicial .texto-apresentacao > p{
+.parte1 main #pagina-inicial .texto-apresentacao>p {
     font-size: 35px;
     line-height: 40px;
 }
 
-.parte1 main #pagina-inicial .texto-apresentacao button a{
+.parte1 main #pagina-inicial .texto-apresentacao button a {
     width: 20%;
     cursor: pointer;
 }
 
-.parte1 main #pagina-inicial .texto-apresentacao button img{
+.parte1 main #pagina-inicial .texto-apresentacao button img {
     width: 100% !important;
     cursor: pointer;
 }
 
-.parte1 main #pagina-inicial .texto-apresentacao .botao-android{
+.parte1 main #pagina-inicial .texto-apresentacao .botao-android {
     margin-right: 20px;
     cursor: pointer;
 }
 
-.parte1 main #pagina-inicial .texto-apresentacao .botao-android:hover{
+.parte1 main #pagina-inicial .texto-apresentacao .botao-android:hover {
     box-shadow: 2px 2px 2px 1px #6F6F73;
 }
 
-.parte1 main #pagina-inicial .texto-apresentacao .botao-apple:hover{
+.parte1 main #pagina-inicial .texto-apresentacao .botao-apple:hover {
     box-shadow: 2px 2px 2px 1px #6F6F73;
 }
 
-.parte1 main #pagina-inicial .texto-apresentacao .botoes{
+.parte1 main #pagina-inicial .texto-apresentacao .botoes {
     display: flex;
     cursor: pointer;
 }
 
-.parte1 main #pagina-inicial .formulario-emprestimo{
-
+.parte1 main #pagina-inicial .formulario-emprestimo {
     background: rgba(242, 242, 242, 0.7);
     padding: 25px;
     border-radius: 20px;
@@ -131,7 +125,6 @@ main {
     font-size: 35px;
     text-align: center;
 }
-
 
 .parte1 main #pagina-inicial .formulario-emprestimo h3 {
     font-size: 25px;
@@ -144,9 +137,8 @@ main {
     text-align: center;
 }
 
-
-.parte1 main #pagina-inicial .formulario-emprestimo #quantia-dinheiro, #quantidade-meses{
-    
+.parte1 main #pagina-inicial .formulario-emprestimo #quantia-dinheiro,
+#quantidade-meses {
     margin: 10px 0;
     font-size: 15px;
     width: 90%;
@@ -167,7 +159,6 @@ main {
     cursor: pointer;
     height: 50px;
     font-size: 1.3em;
-
 }
 
 .parte1 main #pagina-inicial .formulario-emprestimo #botao-simule:hover {
@@ -185,7 +176,6 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-
 }
 
 .parte1 main #servicos .servico {
@@ -197,18 +187,18 @@ main {
     border: 1px solid #222226;
     box-shadow: 2px 2px 5px 1px #6f6f73;
     font-size: 1.3em;
-
 }
+
 .parte1 main #servicos .servico img {
     width: 100%;
     margin-top: 30px;
 }
 
 #sobre {
-  width: 96%;
- display: flex;
-align-items: center;
-
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
 }
 
 .texto-sobre {
@@ -217,106 +207,151 @@ align-items: center;
     margin-left: 60px;
     flex-direction: column;
     width: 30%;
-
-
 }
 
-.texto-sobre h2{
+.texto-sobre h2 {
     margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
 }
 
-.texto-sobre p{
+.texto-sobre p {
     margin-bottom: 20px;
     font-size: 1.5em;
-
 }
 
-.texto-sobre button{
-font-size: 1.5em;
-background-color:#6f6f73;
-width:fit-content;
-margin:auto;
-border-radius: 15px;
-padding: 5px;
-color: #f2f2f2;
-cursor: pointer;
-border: none;
-
+.texto-sobre button {
+    font-size: 1.5em;
+    background-color: #6f6f73;
+    width: fit-content;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5px;
+    color: #f2f2f2;
+    cursor: pointer;
+    border: none;
 }
 
-.texto-sobre button:hover{
+.texto-sobre button:hover {
     box-shadow: 2px 2px 5px 1px #6f6f73;
-
-
 }
 
 .imagem-funcionarios img {
-  width: 50vw;
+    width: 50vw;
 }
 
-#contato{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-#contato h2{
-margin:20px 0px;
-
-}
-
-#contato textarea{
-    width:80%;
-    height:190px;
-    resize:none;
-    margin-bottom: 20px;
-}
-#contato label{
-align-self: flex-start;
-margin-left: 10%;
+#contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.9), rgb(255, 255, 255, 0.9)), url(img/17828.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#contato .botao-enviar {
-    border-radius:5px;
-    border:none;
-    cursor: pointer;
-    width:20%;
-    background-color:#6f6f73 ;
+#contato h2 {
+    margin: 20px 0px;
+    font-size: 2em;
+    text-align: center;
 }
 
-
-#contato .botao-enviar:hover{
-    box-shadow:2px 2px 5px 1px #6f6f73; 
-    background-color:#6f6f73 ;
+#contato label {
+    align-self: flex-start;
+    margin-left: 10%;
+    font-size: 1.2em;
 }
-#contato form{
+
+#contato form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80%;
     margin-bottom: 15px;
-    
 }
 
+#contato input {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px 1px #6f6f73;
+    padding-left: 20px;
+    font-size: 1em;
+}
 
+#contato textarea {
+    width: 80%;
+    height: 190px;
+    resize: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 5px 1px #6f6f73;
+    border-radius: 5px;
+    font-size: 1em;
+}
 
-#contato input{
-width: 80%;
-height: 50px;
-border-radius:5px;
-border:none;
-box-shadow:2px 2px 5px 1px #6f6f73; 
+#contato .botao-enviar {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    background-color: #6f6f73;
+    color: #f2f2f2;
+}
 
+#contato .botao-enviar:hover {
+    box-shadow: 2px 2px 5px 1px #6f6f73;
+    background-color: #6f6f73;
+}
 
+footer h2 {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 2em;
+}
+
+footer #localize-nos {
+    display: flex;
+    flex-direction: row;
+}
+
+footer #localize-nos .col1 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 25%;
+}
+
+footer #localize-nos .col1 .linha {
+    display: flex;
+    align-items: center;
 }
 
 .linha img {
-  width: 7%;
+    width: 7%;
+    margin-right: 15px;
+}
+
+footer #localize-nos .col2 {
+    align-self: center;
+    text-align: end;
+    margin-right: 25%;
 }
 
 .col2 img {
-  width: 2%;
+    width: 4.3%;
+    margin-left: 15px;
+    cursor: pointer;
 }
 
 .logofacebook {
-  width: 1% !important;
+    width: 2.2% !important;
+}
+
+.col2 img:hover {
+    width: 5%;
+}
+
+.logofacebook:hover {
+    width: 2.7% !important;
 }
