@@ -109,11 +109,11 @@ main {
 }
 
 .parte1 main #pagina-inicial .texto-apresentacao .botao-android:hover {
-    box-shadow: 2px 2px 2px 1px #6F6F73;
+    box-shadow: 0px 0px 6px 1px #6F6F73;
 }
 
 .parte1 main #pagina-inicial .texto-apresentacao .botao-apple:hover {
-    box-shadow: 2px 2px 2px 1px #6F6F73;
+    box-shadow: 0px 0px 6px 1px #6F6F73;
 }
 
 .parte1 main #pagina-inicial .texto-apresentacao .botoes {
@@ -125,7 +125,7 @@ main {
     background: rgba(242, 242, 242, 0.7);
     padding: 25px;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px 1px #6F6F73;
+    box-shadow: 0px 0px 6px 1px #6F6F73;
 }
 
 .parte1 main #pagina-inicial .formulario-emprestimo h2 {
@@ -152,7 +152,7 @@ main {
     border-radius: 10px;
     padding: 5px 10px;
     border: none;
-    box-shadow: 2px 2px 5px 1px #6f6f73;
+    box-shadow: 0px 0px 6px 1px #6f6f73;
 }
 
 .parte1 main #pagina-inicial .formulario-emprestimo #botao-simule {
@@ -169,7 +169,7 @@ main {
 }
 
 .parte1 main #pagina-inicial .formulario-emprestimo #botao-simule:hover {
-    box-shadow: 2px 2px 5px 1px #6f6f73;
+    box-shadow: 0px 0px 6px 1px #6f6f73;
 }
 
 .parte1 main #servicos {
@@ -192,7 +192,7 @@ main {
     border-radius: 5px;
     margin: 30px 0;
     border: 1px solid #222226;
-    box-shadow: 2px 2px 5px 1px #6f6f73;
+    box-shadow: 0px 0px 6px 1px #6f6f73;
     font-size: 1.3em;
 }
 
@@ -240,7 +240,7 @@ main {
 }
 
 .texto-sobre button:hover {
-    box-shadow: 2px 2px 5px 1px #6f6f73;
+    box-shadow: 0px 0px 6px 1px #6f6f73;
 }
 
 .imagem-funcionarios img {
@@ -282,7 +282,7 @@ main {
     height: 50px;
     border-radius: 5px;
     border: none;
-    box-shadow: 2px 2px 5px 1px #6f6f73;
+    box-shadow: 0px 0px 6px 1px #6F6F73;
     font-size: 1em;
     padding-left: 10px;
 }
@@ -293,7 +293,7 @@ main {
     resize: none;
     margin-bottom: 20px;
     padding-left: 20px;
-    box-shadow: 2px 2px 5px 1px #6f6f73;
+    box-shadow: 0px 0px 6px 1px #6F6F73;
     border-radius: 5px;
     font-size: 1em;
 }
@@ -310,8 +310,12 @@ main {
 }
 
 #contato .botao-enviar:hover {
-    box-shadow: 2px 2px 5px 1px #6f6f73;
+    box-shadow: 0px 0px 6px 1px #6F6F73;
     background-color: #6f6f73;
+}
+
+footer {
+    padding-bottom: 25px;
 }
 
 footer h2 {
