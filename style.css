@@ -4,6 +4,13 @@
     font-family: "Oswald", sans-serif;
 }
 
+html {
+    display: block;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
 body {
     background-color: #f2f2f2;
 }
