@@ -93,8 +93,7 @@
         margin-bottom: 10px;
     }
     .parte1 header .esconder {
-        right: -100%;
-        /* display: none; */
+        top: -100%;
         transition: all 0.5s ease-in-out;
     }
     .texto-apresentacao {
