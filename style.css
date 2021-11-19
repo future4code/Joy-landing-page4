@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+html {
+    display: block;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    padding: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 13vw;
+    text-decoration: none;
+}
+
+#logo:hover {
+    text-decoration: none;
+}
+
+#logo:active {
+    text-decoration: none;
+}
+
+.menu-cabecalho ul {
+    display: flex;
+    margin-right: 70px;
+}
+
+.menu-cabecalho ul a {
+    text-decoration: none;
+    margin: 0 35px;
+    font-size: 35px;
+}
+
+.menu-cabecalho ul li {
+    list-style: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.parte1 {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0.3)), url(img/towfiqu-barbhuiya-WYa-B2JAFPk-unsplash\ \(1\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parte1 main #pagina-inicial {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1% 2%;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao button {
+    display: flex;
+    cursor: pointer;
+    width: 20%;
+    padding: 10px;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    border: none;
+    background-color: #6f6f73;
+    color: #f2f2f2;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao>p {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao button a {
+    width: 20%;
+    cursor: pointer;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao button img {
+    width: 100% !important;
+    cursor: pointer;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao .botao-android {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao .botao-android:hover {
+    box-shadow: 0px 0px 6px 1px #6F6F73;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao .botao-apple:hover {
+    box-shadow: 0px 0px 6px 1px #6F6F73;
+}
+
+.parte1 main #pagina-inicial .texto-apresentacao .botoes {
+    display: flex;
+    cursor: pointer;
+}
+
+.parte1 main #pagina-inicial .formulario-emprestimo {
+    background: rgba(242, 242, 242, 0.7);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 1px #6F6F73;
+}
+
+.parte1 main #pagina-inicial .formulario-emprestimo h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.parte1 main #pagina-inicial .formulario-emprestimo h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.parte1 main #pagina-inicial .formulario-emprestimo label {
+    font-size: 20px;
+    text-align: center;
+}
+
+.parte1 main #pagina-inicial .formulario-emprestimo #quantia-dinheiro,
+#quantidade-meses {
+    margin: 10px 0;
+    font-size: 15px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0px 0px 6px 1px #6f6f73;
+}
+
+.parte1 main #pagina-inicial .formulario-emprestimo #botao-simule {
+    background-color: #6f6f73;
+    width: 97%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    color: #f2f2f2;
+    margin-top: 15px;
+    cursor: pointer;
+    height: 50px;
+    font-size: 1.3em;
+}
+
+.parte1 main #pagina-inicial .formulario-emprestimo #botao-simule:hover {
+    box-shadow: 0px 0px 6px 1px #6f6f73;
+}
+
+.parte1 main #servicos {
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.parte1 main #servicos .wrap-servicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.parte1 main #servicos .servico {
+    width: 40%;
+    padding: 0 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 30px 0;
+    border: 1px solid #222226;
+    box-shadow: 0px 0px 6px 1px #6f6f73;
+    font-size: 1.3em;
+}
+
+.parte1 main #servicos .servico img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#sobre {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.texto-sobre {
+    display: flex;
+    flex-direction: center;
+    margin-left: 60px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.texto-sobre h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.texto-sobre p {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.texto-sobre button {
+    font-size: 1.5em;
+    background-color: #6f6f73;
+    width: fit-content;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5px;
+    color: #f2f2f2;
+    cursor: pointer;
+    border: none;
+}
+
+.texto-sobre button:hover {
+    box-shadow: 0px 0px 6px 1px #6f6f73;
+}
+
+.imagem-funcionarios img {
+    width: 50vw;
+}
+
+#contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.9), rgb(255, 255, 255, 0.9)), url(img/17828.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contato h2 {
+    margin: 20px 0px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#contato label {
+    align-self: flex-start;
+    margin-left: 10%;
+    font-size: 1.2em;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+#contato input {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 6px 1px #6F6F73;
+    font-size: 1em;
+    padding-left: 10px;
+}
+
+#contato textarea {
+    width: 79%;
+    height: 190px;
+    resize: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 6px 1px #6F6F73;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contato .botao-enviar {
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    background-color: #6f6f73;
+    color: #f2f2f2;
+    padding: 10px 0;
+}
+
+#contato .botao-enviar:hover {
+    box-shadow: 0px 0px 6px 1px #6F6F73;
+    background-color: #6f6f73;
+}
+
+footer {
+    padding-bottom: 25px;
+}
+
+footer h2 {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 2em;
+}
+
+footer #localize-nos {
+    display: flex;
+    flex-direction: row;
+}
+
+footer #localize-nos .col1 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 25%;
+}
+
+footer #localize-nos .col1 .linha {
+    display: flex;
+    align-items: center;
+}
+
+.linha img {
+    width: 7%;
+    margin-right: 15px;
+}
+
+footer #localize-nos .col2 {
+    align-self: center;
+    text-align: end;
+    margin-right: 25%;
+}
+
+.col2 img {
+    width: 4.3%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.logofacebook {
+    width: 2.2% !important;
+}
+
+.col2 img:hover {
+    width: 5%;
+}
+
+.logofacebook:hover {
+    width: 2.7% !important;
+}

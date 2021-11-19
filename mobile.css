@@ -1,0 +1,156 @@
+.burger {
+    display: none;
+}
+
+.caixa {
+    cursor: pointer;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa .linha {
+    width: 35px;
+    height: 3px;
+    background: #222226;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.caixa .linha .esconde {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-50px);
+}
+
+.caixa .linha::before,
+.caixa .linha::after {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background: #222226;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.caixa .linha::before {
+    transform: translateY(-10px);
+}
+
+.caixa .linha::after {
+    transform: translateY(10px);
+}
+
+.esconde {
+    background: transparent !important;
+}
+
+.esconde::before {
+    transform: rotate(135deg) !important;
+}
+
+.esconde::after {
+    transform: rotate(-135deg) !important;
+}
+
+@media (max-width: 820px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    header .menuMobile {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .burger {
+        z-index: 1;
+        display: flex;
+    }
+    nav {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #f2f2f2;
+        transition: all 0.5s ease-in-out;
+    }
+    nav ul {
+        margin: 0 !important;
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul a>li {
+        margin-top: 40px;
+    }
+    nav ul a li {
+        margin-bottom: 10px;
+    }
+    .parte1 header .esconder {
+        top: -100%;
+        transition: all 0.5s ease-in-out;
+    }
+    .texto-apresentacao {
+        display: none !important;
+    }
+    .parte1 main #servicos .wrap-servicos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .imagem-funcionarios {
+        display: none;
+    }
+    #sobre .texto-sobre p {
+        text-align: justify;
+    }
+    .texto-sobre {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 5%;
+    }
+    .texto-sobre button {
+        font-size: 1em;
+        margin-bottom: 25px;
+    }
+    #contato label {
+        margin: 0;
+    }
+    #contato input {
+        width: 95%;
+        margin-bottom: 20px;
+        padding-left: 15px !important;
+    }
+    #contato textarea {
+        width: 94%;
+        padding: 15px 0 0 15px !important;
+    }
+    #contato button {
+        padding: 15px;
+    }
+    .linha img {
+        width: 9%;
+    }
+    footer #localize-nos {
+        display: flex;
+        flex-direction: column;
+    }
+    footer #localize-nos .col2 {
+        align-self: center;
+        text-align: end;
+        margin-right: 0%;
+        margin-top: 20px;
+    }
+    .col2 img {
+        width: 21px;
+        justify-self: center;
+    }
+    .logofacebook {
+        width: 11.5px !important;
+    }
+}
